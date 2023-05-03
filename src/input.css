@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-custom{
+    @apply text-sm w-full border-b py-2 focus:outline-none focus:border-slate-400;
+}
